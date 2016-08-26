@@ -136,7 +136,7 @@
     max-width: 1920px;
     min-width: 1366px;
     margin: 0 auto;
-     background: url(../images/adv-top.jpg) #15224c;
+     background: url(../images/adv-top.jpg) center top #15224c;
      cursor: pointer;
 }
 
@@ -185,7 +185,7 @@ height: 99999px;
 .top-banner1 .top-wrap .top-wrap-r li{
     height: 30px;
     line-height:30px;
-    padding-left: 24px;
+    margin-left: 12px;
 }
 .top-banner1 .top-wrap .top-wrap-r li a{
     font-size: 14px;
@@ -1296,6 +1296,7 @@ user-select: none;*/
     font-size: 16px;
     text-align: center;
     height: 54px;
+    cursor: pointer;
 }
 
 .floor-m-silder .floor-silder-hd span.active {
@@ -1800,6 +1801,7 @@ float: left;
     font-size: 16px;
     text-align: center;
     height: 54px;
+    cursor: pointer;
 }
 
 .Supply-area .Supply-area-hd span.active {

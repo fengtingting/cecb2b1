@@ -49,8 +49,8 @@
         })
 
         $("#J_categoryTab").hqTabs("mouseover", !0)
-        $("#J_inquirySuperBuyer").hqTabs("mouseover")
-        $("#WisdomCity").hqTabs("mouseover")
+        $("#J_inquirySuperBuyer").hqTabs("click")
+        $("#WisdomCity").hqTabs("click")
         $("#J_serviceTab").hqTabs("mouseover")
         $("#search").hqTabs("click")
         $(function() {
