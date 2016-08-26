@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
@@ -54,13 +53,14 @@
             <div class="top-wrap" style="margin: 0 auto;width: 1200px;height: 90px; position: relative;">
                 <a class="close">x</a>
                 <div class="top-wrap-l" style="float: left;"></div>
-                <div class="top-wrap-r" style="float:right;width: 230px;height: 30px;margin-top:49px;margin-right: 153px;" >
+                <div class="top-wrap-r" style="float:right;width: 230px;height: 30px;margin-top:49px;margin-right: 153px;overflow:hidden;" >
                     <div class="" id="marqueebox">
                     <ul>
-                        <li><a href="" target="_blank">科技成果：科幻四轴飞行汽车</a></li>
-                        <li><a href="" target="_blank">解决方案：解决方案方案放安顿好后</a></li>
-                        <li><a href="" target="_blank">知识产权：知识产权支持涉毒为或多或少</a></li>
-                        <li><a href="" target="_blank">金融服务：金融服务无的速度苏苏</a></li>
+                        <li><a href="" target="_blank">科技成果1：科幻四轴飞行汽车</a></li>
+                        <li><a href="" target="_blank">解决方案2：解决方案方案放安顿好后</a></li>
+                        <li><a href="" target="_blank">知识产权3：知识产权支持涉毒为或多或少</a></li>
+                        <li><a href="" target="_blank">金融服务4：金融服务无的速度苏苏</a></li>
+                        <li><a href="" target="_blank">研究智造远5：水果店还水果店还</a></li>
                     </ul>
                     </div>
                 </div> 
@@ -1429,32 +1429,6 @@
         </div> -->
          <script type="text/javascript" src="js/base.js"></script>
          <script type="text/javascript" src="js/zx.js"></script>
-         <script>        
-                function startmarquee(lh,speed,delay) {
-                var p=false;
-                var t;
-                var o=document.getElementById("marqueebox");
-                o.innerHTML+=o.innerHTML;
-                o.style.marginTop=0;
-                o.onmouseover=function(){p=true;}
-                o.onmouseout=function(){p=false;}
-                function start(){
-                t=setInterval(scrolling,speed);
-                if(!p) o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
-                }
-                function scrolling(){
-                if(parseInt(o.style.marginTop)%lh!=0){
-                o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
-                if(Math.abs(parseInt(o.style.marginTop))>=o.scrollHeight/1) o.style.marginTop=0;
-                }else{
-                clearInterval(t);
-                setTimeout(start,delay);
-                }
-                }
-                setTimeout(start,delay);
-                }
-                startmarquee(30,30,1500);
-         </script>
     </body>
 
 </html>
