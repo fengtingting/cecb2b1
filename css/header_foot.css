@@ -16,7 +16,7 @@
 #top .tops .market .s_cs:hover i{-moz-transform:rotate(180deg);-moz-transform-origin:50% 30%;-webkit-transform:rotate(180deg);-webkit-transform-origin:50% 30%;-o-transform:rotate(180deg);-o-transform-origin:50% 30%;transform:rotate(180deg);transform-origin:50% 30%;filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);top:18px\19;}
 #top .tops .market ul{ position:absolute;left:0;top:35px;border:1px solid #e6e6e6;width:140px;border-top:0px;background:#fff;display:none}
 #top .tops .market ul li{height:26px;line-height:26px;padding-left:9px;color:#666}
-#top .tops .re_old{width:80px;float:left;padding:5px 0 0 10px;line-height:29px;}
+#top .tops .re_old {float: left;line-height: 36px;color: #666;}
 #top .tops .re_old a{color: #666;}
 /*#top .tops .re_old a{color:#fa7018}*/
 #top .tops .sitemap{float:right;width:50px;padding:5px 0 0 0;line-height:29px; text-align:right}
