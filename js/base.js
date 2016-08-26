@@ -38,6 +38,9 @@
         $('#J_topBanner .close').click(function() {
                 $('#J_topBanner').hide();
             })
+        $('.public-code .close').click(function() {
+                $('.public-code').hide();
+            })
             //弹窗
         var _btn = $("#webimclosebutton");
         _btn.click(function() {
@@ -74,7 +77,8 @@
         $('.select li').click(function(event){
             var target = $(event.target);
            var value = target.text();
-           target.parents('.select').addClass('ihide').prev()[0].innerText=value;
+           // target.parents('.select').addClass('ihide').prev()[0].innerText=value;
+           target.parents('.select').addClass('ihide').prev().html(value);
            setTimeout(function(){
                 target.parents('.select').removeClass('ihide');
            });

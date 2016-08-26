@@ -37,11 +37,34 @@
             <p id="topNotice_content" />尊敬的用户，春节放假期间（2月3日-2月17日），网站暂停人工咨询服务，不便之处敬请谅解！网站全体员工恭祝各位新年快乐，财源广进！</p>
         </div> -->
         <!-- 顶部广告 -->
-        <div id="J_topBanner" class="top-banner1" style="display: block;">
+       <!--  <div id="J_topBanner" class="top-banner1" style="display: block;">
             <a class="close">x</a>
             <a href="/common/asinfostat.aspx?url=http://www.hqbuy.com/news/1340.html?hmsr=hqewg1002b&amp;code=G01001&amp;asinfoid=8313">
                 <img src="./images/adv-top.jpg" class="img-small" height="90px">
             </a>
+            <div class="" style="width: 100px;height: 30px;background: red;margin: 0 auto;">
+                
+            </div>
+        </div> -->
+        <div id="J_topBanner" class="top-banner1" style="display: block; ">
+            
+           <!--  <a href="/common/asinfostat.aspx?url=http://www.hqbuy.com/news/1340.html?hmsr=hqewg1002b&amp;code=G01001&amp;asinfoid=8313">
+                <img src="./images/adv-top.jpg" class="img-small" height="90px">
+            </a> -->
+            <div class="top-wrap" style="margin: 0 auto;width: 1200px;height: 90px; position: relative;">
+                <a class="close">x</a>
+                <div class="top-wrap-l" style="float: left;"></div>
+                <div class="top-wrap-r" style="float:right;width: 230px;height: 30px;margin-top:49px;margin-right: 153px;" >
+                    <div class="" id="marqueebox">
+                    <ul>
+                        <li><a href="" target="_blank">科技成果：科幻四轴飞行汽车</a></li>
+                        <li><a href="" target="_blank">解决方案：解决方案方案放安顿好后</a></li>
+                        <li><a href="" target="_blank">知识产权：知识产权支持涉毒为或多或少</a></li>
+                        <li><a href="" target="_blank">金融服务：金融服务无的速度苏苏</a></li>
+                    </ul>
+                    </div>
+                </div> 
+            </div>
         </div>
         <div id="top">
             <div class="tops">
@@ -122,6 +145,11 @@
                             </form>
                         </div>
                     </div>
+                </div>
+                <div class="public-code">
+                    <img width="86aaapx" height="100px" src="./images/gzh-code.gif" alt="手机淘宝">
+                    <a class="close">x</a>
+                    
                 </div>
                 <!-- <div class="tj-logo">
                     <a target="_blank" href="http://tj.cecb2b.com/"><img src="./images/zfzz.gif"></a>
@@ -1401,6 +1429,32 @@
         </div> -->
          <script type="text/javascript" src="js/base.js"></script>
          <script type="text/javascript" src="js/zx.js"></script>
+         <script>        
+                function startmarquee(lh,speed,delay) {
+                var p=false;
+                var t;
+                var o=document.getElementById("marqueebox");
+                o.innerHTML+=o.innerHTML;
+                o.style.marginTop=0;
+                o.onmouseover=function(){p=true;}
+                o.onmouseout=function(){p=false;}
+                function start(){
+                t=setInterval(scrolling,speed);
+                if(!p) o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
+                }
+                function scrolling(){
+                if(parseInt(o.style.marginTop)%lh!=0){
+                o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
+                if(Math.abs(parseInt(o.style.marginTop))>=o.scrollHeight/1) o.style.marginTop=0;
+                }else{
+                clearInterval(t);
+                setTimeout(start,delay);
+                }
+                }
+                setTimeout(start,delay);
+                }
+                startmarquee(30,30,1500);
+         </script>
     </body>
 
 </html>

@@ -133,8 +133,11 @@
     height: 90px;
     overflow: hidden;
     position: relative;
-    width: 1920px;
+    max-width: 1920px;
+    min-width: 1366px;
     margin: 0 auto;
+     background: url(../images/adv-top.jpg) #15224c;
+     cursor: pointer;
 }
 
 .top-banner1 .close,
@@ -145,24 +148,56 @@
     width: 20px;
     height: 20px;
     line-height: 20px;
-    top: 15px;
-    right: 20%;
+    top: 10px;
+    right: 10px;
     color: #fff;
     cursor: pointer;
     text-align: center;
     font-size: 14px;
     font-family: consolas;
 }
-
+}
+.top-banner1 .top-wrap{
+background: red;
+margin: 0 auto;
+width: 1200px;
+height: 90px; 
+position: relative;
+}
 .top-banner1 a img{
     width: 100%;
 }
-/*.top-banner1 .div-close{
-width: 1200px;
-margin: 0 auto;
-height: 90px;
+/*.top-banner1 .top-wrap .top-wrap-r{
+    float:right;
+    width: 230px;
+    height: 30px;
+    margin-top: 50px;
+     background: green;
+     margin-right: 150px;
+}*/
+.top-banner1 .top-wrap .top-wrap-r{
+    height: 30px;
+    overflow: hidden;
 }
-*/
+.top-banner1 .top-wrap .top-wrap-r ul{
+height: 99999px;
+}
+.top-banner1 .top-wrap .top-wrap-r li{
+    height: 30px;
+    line-height:30px;
+    padding-left: 24px;
+}
+.top-banner1 .top-wrap .top-wrap-r li a{
+    font-size: 14px;
+    color: #3776d3;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    overflow-wrap: break-word;
+}
 
 /*首页头部*/
 
@@ -289,7 +324,7 @@ height: 90px;
 .input-search-group .downlist-ul {
     width: 68px;
     position: absolute;
-    top: 35px;
+    top: 34px;
     z-index: 1;
     border: 1px solid #e6e6e6;
     left: -1px;
@@ -298,10 +333,11 @@ height: 90px;
 }
 .input-search-group .downlist{
     position: absolute;
-    height: 36px;
+    height: 34px;
     line-height: 30px;
     width: 68px;
-    top: 0px;
+    top: 1px;
+    background: #fff;
 
 
     
@@ -482,6 +518,32 @@ padding-left: 10px;
     padding: 36px 0 0 50px;
 }
 
+.header .public-code{
+    width: 86px;
+    height: 100px;
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin-left: 150px;
+    margin-top: 18px;
+    position: relative;
+}
+.header .public-code .close{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
+    margin-left: -1px;
+    margin-top: -1px;
+    font-size: 16px;
+    color: #DDD;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    top: 0px;
+    left: -21px;
+    cursor: pointer;
+}
 
 /*头部nav*/
 
