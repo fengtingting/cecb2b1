@@ -1083,13 +1083,14 @@ user-select: none;*/
 .service-tab .tab-c {
     display: none;
 }
-
 .service-tab .tab-c a {
     font-size: 14px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
 }
-
 .service-tab .tab-c a:hover {
     color: #ff751a;
 }
@@ -1720,9 +1721,13 @@ float: left;
     margin-right: 40px;
 }
 
-.sample-test .sample-test-l dl dt,
+.sample-test .sample-test-l dl dt, 
 .sample-test .sample-test-r dl dt {
     font-size: 16px;
+    height: 20px;
+    overflow: hidden;
+    width: 192px;
+    cursor: pointer;
 }
 
 .sample-test .sample-test-l dl dd,
@@ -1882,9 +1887,13 @@ float: left;
 }
 
 .Supply-area .Supply-area-bd ul li:hover {
-    border: 1px solid #3776d3;
+       border: 1px solid #3776d3;
     width: 193px;
     height: 246px;
+/*    width: 193px;
+    height: 246px;
+
+    display: inline-block;*/
 }
 
 .Supply-area .Supply-area-bd ul li:hover .join-but {
@@ -1893,10 +1902,17 @@ float: left;
     cursor: pointer;
 }
 
+.b-div{
+    width: 193px;
+    height: 246px;
+
+}
+
 .Supply-area .Supply-area-bd .Supply-area-wrap {
     margin-left: 50px;
     margin-right: 50px;
     overflow: hidden;
+     border: 1px solid #3776d3;
 }
 
 .iconfont {
@@ -1970,7 +1986,7 @@ float: left;
 
 /*底部左悬浮*/
 
-.elevator {
+/*.elevator {
     position: fixed;
     top: 30%;
     left: -2%;
@@ -1991,7 +2007,6 @@ float: left;
 .elevator ul li.current {
     background: #3776d3;
     color: #fff;
-    /*  border-top: 1px solid #f2f6fc;*/
     border-bottom: 0 none;
 }
 .elevator ul li:hover{
@@ -2003,7 +2018,7 @@ float: left;
 
 .tab-content .tab-c.active {
     display: block;
-}
+}*/
 
 /*需求提交页*/
 .post-bd{

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <meta name="keywords" content="元器件交易网,电子,IC,IC网,IC交易网,电子元器件,中发电子市场,元器件交易" />
     <meta name="description" content="元器件交易网（cecb2b.com）是中发网全新升级平台，立足电子元器件行业，在全国十大专业电子市场联盟的基础上，集合线下及线上最广大的买家和卖家资源，利用最先进的互联网技术和产品服务，全面提升电子元器件企业的价值体系，元器件交易网是电子市场联盟唯一指定商务平台。“实体市场，全程保障”，这是元器件交易网成为电子行业最优秀电子商务平台的根本所在，也是元器件交易网针对广大采购用户提出的安全交易承诺。" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/header_foot.css">
+    <link rel="stylesheet" type="text/css" href="http://images.cecb2b.com/css/common-service/reset.css" />
+    <link rel="stylesheet" type="text/css" href="http://images.cecb2b.com/css/common-service/index.css" />
+    <link rel="stylesheet" type="text/css" href="http://images.cecb2b.com/css/common-service/header_foot.css">
     <script src="http://images.cecb2b.com/js/common_new/jquery-1.8/jquery.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://images.cecb2b.com/js/common_new/common_top_2014.js"></script>
-    <script type="text/javascript" src='js/commonstt.js'></script>
-    <script src='js/jquery.SuperSlide.2.1.1.js'></script>
+    <script type="text/javascript" src='http://images.cecb2b.com/js/common-service/commonstt.js'></script>
+    <script src='http://images.cecb2b.com/js/common-service/jquery.SuperSlide.2.1.1.js'></script>
     <title>元器件交易网-需求提交</title>
     <body>
         <!-- ie7error提示 -->
@@ -90,7 +90,7 @@
         <div class="header">
             <div class="container">
                 <div class="logo-group">
-                    <h1><a class="logo" href="" target="_self"><img src="./images/zfzz.gif" alt="中发智造"></a></h1></div>
+                    <h1><a class="logo" href="" target="_self"><img src="http://images.cecb2b.com/images/common-service/zfzz.gif" alt="中发智造"></a></h1></div>
                 <div class="search" id="search">
                     <ul class="search-type">
                         <li class="first active tab-t">产品</li>
@@ -123,11 +123,11 @@
                     </div>
                 </div>
                 <div class="public-code">
-                    <img width="86aaapx" height="100px" src="./images/gzh-code.gif" alt="手机淘宝">
+                    <img width="86aaapx" height="100px" src="http://images.cecb2b.com/images/common-service/gzh-code.gif" alt="手机淘宝">
                     <a class="close">x</a>
                 </div>
                 <!-- <div class="tj-logo">
-                    <a target="_blank" href="http://tj.cecb2b.com/"><img src="./images/zfzz.gif"></a>
+                    <a target="_blank" href="http://tj.cecb2b.com/"><img src="http://images.cecb2b.com/images/common-service/zfzz.gif"></a>
                 </div> -->
             </div>
         </div>
@@ -169,12 +169,12 @@
                         </div>
                     </div>
                 </div>
-                <ul class="navitems">
-                    <li class=""><a href="" target="_self">智造研究院</a></li>
-                    <li><a href="" target="_blank">资料库</a></li>
-                    <li><a href="" target="_blank">工程师社群</a></li>
+                 <ul class="navitems">
+                    <li class="current"><a href="http://news.cecb2b.com/" target="_blank">智造研究院</a></li>
+                    <li><a href="http://pdf.cecb2b.com/" target="_blank">资料库</a></li>
+                    <li><a href="http://bbs.cecb2b.com/forumdisplay.php?fid=27" target="_blank">工程师社群</a></li>
                     <li><a href="" target="_blank">会展服务</a></li>
-                    <li><a href="" target="_blank">知识产权专利</a></li>
+                    <li><a href="http://patent.cecb2b.com/" target="_blank">知识产权专利</a></li>
                     <li><a href="" target="_blank">科技成果</a></li>
                     <li><a href="" target="_blank">金融服务</a></li>
                 </ul>
@@ -189,14 +189,14 @@
             <div class="post-bd">
                 <div class="process-con">
                     <h1>服务流程</h1>
-                    <img src="./images/process.png">
+                    <img src="http://images.cecb2b.com/images/common-service/process.png">
                     <div class="h50"></div>
                     <p class="font20">尊敬的客户： 平台正在极速建设中，请您通过以下方式提交需求</p>
                     <div class="h30"></div>
                     <div class="post-way">
                         <div class="post-way-l">
                             <p class="font16 mt30">方式一：电话联系客服提交需求</p>
-                            <div class="mt30 text-center"><img src="./images/tel.gif"></div>
+                            <div class="mt30 text-center"><img src="http://images.cecb2b.com/images/common-service/tel.gif"></div>
                         </div>
                         <div class="post-way-r">
                              <p class="font16 mt30">方式二：在线联系客服提交需求</p>
@@ -211,46 +211,46 @@
             </div>
         </div>
         <!-- footer -->
-            <div class="foot-about container">
+           <div class="foot-about container">
                 <div class="div_list">
                     <h3>关于我们</h3>
                     <ul>
-                        <li><a href="" target="_blank">关于中发智造</a></li>
-                        <li><a href="" target="_blank">联系我们</a></li>
-                        <li><a href="" target="_blank">加入我们</a></li>
+                        <!-- <li><a href="" target="_blank">关于中发智造</a></li> -->
+                        <li><a href="http://www.cecb2b.com/help/about_contact.shtml" target="_blank">联系我们</a></li>
+                        <li><a href="http://www.cecb2b.com/help/about_job.shtml" target="_blank">加入我们</a></li>
                     </ul>
                 </div>
                 <div class="div_list">
                     <h3>新手指南</h3>
                     <ul>
-                        <li><a href="" target="_blank">免费注册</a></li>
-                        <li><a href="" target="_blank">买家入门</a></li>
-                        <li><a href="" target="_blank">卖家入门</a></li>
-                        <li><a href="" target="_blank">帮助中心</a></li>
+                        <li><a href="http://www.cecb2b.com/register/registe.jsp" target="_blank">免费注册</a></li>
+                        <li><a href="http://www.cecb2b.com/help/buy_process.shtml.jsp" target="_blank">买家入门</a></li>
+                        <li><a href="http://www.cecb2b.com/help/supply_process.shtml.jsp" target="_blank">卖家入门</a></li>
+                        <li><a href="http://www.cecb2b.com/help/help_index.shtml" target="_blank">帮助中心</a></li>
                     </ul>
                 </div>
                 <div class="div_list">
                     <h3>交易保障</h3>
                     <ul>
-                        <li><a href="" target="_blank">e投诉</a></li>
-                        <li><a href="" target="_blank">曝光台</a></li>
-                        <li><a href="" target="_blank">e担保</a></li>
+                        <li><a href="http://www.cecb2b.com/zt/etousu.shtml" target="_blank">e投诉</a></li>
+                        <li><a href="http://www.cecb2b.com/help/baoguangtai.shtml" target="_blank">曝光台</a></li>
+                        <li><a href="http://www.cecb2b.com/zt/edanbao.shtml" target="_blank">e担保</a></li>
                     </ul>
                 </div>
                 <div class="div_list div_list1">
                     <h3>生态服务</h3>
                     <ul>
-                        <li><a href="" target="_blank">工程师社群</a></li>
+                        <li><a href="http://bbs.cecb2b.com/" target="_blank">工程师社群</a></li>
                         <li><a href="" target="_blank">科技成果</a></li>
-                        <li><a href="" target="_blank">知识产权专利</a></li>
+                        <li><a href="http://patent.cecb2b.com/" target="_blank">知识产权专利</a></li>
                         <li><a href="" target="_blank">解决方案</a></li>
                         <li><a href="" target="_blank">会展服务</a></li>
                         <li><a href="" target="_blank">金融服务</a></li>
                     </ul>
                 </div>
                 <div class="div_list div_wx">
-                    <div class="div-list-l"><img src="./images/wx-ce.jpg"></div>
-                    <div><img src="./images/wx-ph.jpg"></div>
+                    <div class="div-list-l"><img src="http://images.cecb2b.com/images/common-service/wx-ce.jpg"></div>
+                    <div><img src="http://images.cecb2b.com/images/common-service/wx-ph.jpg"></div>
                 </div>
             </div>
         <div class="foot-add">
@@ -283,7 +283,7 @@
                     </div>
                 </li>
                 <li class="li_3 " id="back" style="visibility: hidden;">
-                     <a href="javascript:void(0);" target="_blank">
+                     <a href="javascript:void(0);" >
                         <span class="icon_s">&nbsp;</span>
                     </a>
                 </li>
@@ -301,8 +301,8 @@
                 </dd>
             </dl>
         </div> -->
-         <script type="text/javascript" src="js/base.js"></script>
-         <script type="text/javascript" src="js/zx.js"></script>
+         <script type="text/javascript" src="http://images.cecb2b.com/js/common-service/base.js"></script>
+         <script type="text/javascript" src="http://images.cecb2b.com/js/common-service/zx.js"></script>
     </body>
 
 </html>

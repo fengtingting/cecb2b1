@@ -203,7 +203,7 @@ var tt = {
             iconl.addClass(option.gray);
             if(items.length > 0) {
                 par = items.eq(0).parent();
-                itemWid = items.eq(0).outerWidth();
+                itemWid = items.eq(0).outerWidth(+parseInt(items.eq(0).css('margin-top')););
             }
             if(items.length > option.num) {
 

@@ -206,13 +206,22 @@
     width: 42px;
     height: 42px;
     display:block;
-    background: url(../images/zx_r.png) no-repeat center top;
+    background: url(../images/zx-1.gif) no-repeat center top;
 }
 .zx li.li_2 span.icon_s {
-background-position: 0 -43px;
+background: url(../images/bj.gif)  no-repeat center top;
 }
 .zx li.li_3 span.icon_s {
-background-position: 0 -86px;
+background: url(../images/back.gif) no-repeat center top;
+}
+.zx li span.icon_s:hover{
+background: url(../images/zx.gif) no-repeat center top;
+}
+.zx li.li_2 span.icon_s:hover{
+    background: url(../images/bj-1.gif) no-repeat center top;
+}
+.zx li.li_3 span.icon_s:hover{
+background: url(../images/back-1.gif) no-repeat center top;
 }
 .zx li .zx-text{
     position: absolute;
